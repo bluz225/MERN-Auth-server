@@ -16,3 +16,6 @@ db.on("error", error =>{
     console.warn("db error:",error)
 })
 
+module.exports = {
+    User: require("./user")
+}
